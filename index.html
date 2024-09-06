@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+
+    <div class="change_field">
+        <div class="child_field">
+            <div class="buttons">
+                <button type="button" class="btn" onclick="textChange()">Click to change texts</button>
+                <p id="tc">Hello World</p>
+                <button type="button" class="btn" onclick="textRechange()">Click to unchange texts</button>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn" onclick="textBig()">Click to make texts big</button>
+                <p id="typo">Hello World</p>
+                <button type="button" class="btn" onclick="textSmall()">Click to make text small</button>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn" onclick="textPaint1()">Click to paint text</button>
+                <p id="decoration">Hello World</p>
+                <button type="button" class="btn" onclick="textPaint2()">Click to paint text</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="button">
+        <button type="button" onclick="myFunction()" class="btn">alert</button>
+        <p id="hello"></p>
+    </div>
+
+    <div class="img">
+        <div class="second_img"><img src="image/normal.png" alt="emoji" id="emoji"></div>
+        <button type="button" onclick="clickHappy()">Happy</button>
+        <button type="button" onclick="clickSad()">Sad</button>
+        <button type="button" onclick="clickCry()">Cry</button>
+        <button type="button" onclick="clickAngry()">Angry</button>
+        <button type="button" onclick="clickLove()">Love</button>
+    </div>
+
+    <div class="fans">
+        <div class="fan1 fan" id="stop"></div>
+        <div class="fan2 fan" id="rotate"></div>
+        <button type="button" onclick="stop()">Off</button>
+        <button type="button" onclick="rotate()">On</button>
+    </div>
+    <button type="button" id="getlogin" onclick="toShow()">Login</button>
+    <div class="login_form" id="login">
+        <form action="#">
+            <input type="email" placeholder="Enter your email">
+            <input type="password" placeholder="Password">
+        </form>
+    </div>
+
+    <button type="button" onclick="getNumbers()">Click to show odd numbers</button>
+    <p id="numbers"></p>
+
+    <button type="button" onclick="MessagePopUp()">chick</button>
+    <p id="showMessage"></p>
+
+
+    <button type="button" id="jsbtn" class="jqbtn">show alert</button>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
